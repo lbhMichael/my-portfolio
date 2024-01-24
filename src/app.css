@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--h1: 3.815rem;
+	--h2: 3.052rem;
+	--h3: 2.441rem;
+	--p: 1rem;
+	--body-font: 'Varela Round', sans-serif;
+	--primary-100: #2c3a4f;
+	--primary-200: #56647b;
+	--primary-300: #b4c2dc;
+	--accent-100: #ff4d4d;
+	--accent-200: #ffecda;
+	--text-100: #ffffff;
+	--text-200: #e0e0e0;
+	--bg-100: #1a1f2b;
+	--bg-200: #292e3b;
+	--bg-300: #414654;
+	--unit: 0.625rem;
+	--l-title: 1.2;
+	--l-body: 1.6;
+	--t-xs: 10px;
+	--t-s: 12px;
+	--t-m: 14px;
+	--t-xm: 16px;
+	--t-l: 24px;
+	--t-xl: 32px;
+	--t-base: 1rem;
+	--t-scale: 1.25;
+	--t-0: calc(10px * var(--t-scale));
+	--t-1: var(--t-base);
+	--t-2: calc(var(--t-1) * var(--t-scale));
+	--t-3: calc(var(--t-2) * var(--t-scale));
+	--t-4: calc(var(--t-3) * var(--t-scale));
+	--t-5: calc(var(--t-4) * var(--t-scale));
+	--t-6: calc(var(--t-5) * var(--t-scale));
+	--t-7: calc(var(--t-6) * var(--t-scale));
+	--t-8: calc(var(--t-7) * var(--t-scale));
+	--r-none: 0rem;
+	--r-small: calc(var(--unit) / 2);
+	--r-full: 1000rem;
+	--min-r-none: 0px;
+	--min-r-small: 10px;
+	--min-r-full: 20px;
+	--s-1: var(--unit);
+	--s-2: calc(var(--unit) * 2);
+	--s-3: calc(var(--unit) * 3);
+	--s-4: calc(var(--unit) * 4);
+	--s-5: calc(var(--unit) * 5);
+	--s-6: calc(var(--unit) * 6);
+	--s-7: calc(var(--unit) * 7);
+	--s-8: calc(var(--unit) * 8);
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-weight: 400;
+	font-family: var(--body-font);
+	font-family: 'Noto Serif', serif;
+	background-color: var(--bg-100);
+	color: var(--text-200);
+}
